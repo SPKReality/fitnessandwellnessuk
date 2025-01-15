@@ -10,9 +10,7 @@ var texts = [
     "“Most people fail, not because of lack of desire, but, because of lack of commitment.” –Vince Lombardi",
     "“If something stands between you and your success, move it. Never be denied.” – Dwayne “The Rock” Johnson",
     "“You miss 100% of the shots you dont shoot” - “Zidan”",
-    "“Obession and hard work beats talent everytime” - “Nathan”",
-    "“” - “”",
-    "“” - “”"
+    "“Obession and hard work beats talent everytime” - “Nathan”"
 ];
 
 title.textContent = texts[0];
@@ -20,4 +18,4 @@ title.textContent = texts[0];
 var loop = setInterval(function() {
     title.textContent = texts[i];
     i = (i+1) % texts.length;
-}, 5000);
+}, 7000);

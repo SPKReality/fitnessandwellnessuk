@@ -1437,7 +1437,7 @@
                     text_to = this.decorate(p_values[this.result.to]);
 
                     this.$cache.single.html(text_single);
-                    this.$cache.from.html(text_from);
+                    this.$cache.form.html(text_from);
                     this.$cache.to.html(text_to);
 
                 } else {
@@ -1453,7 +1453,7 @@
                     text_to = this.decorate(this._prettify(this.result.to), this.result.to);
 
                     this.$cache.single.html(text_single);
-                    this.$cache.from.html(text_from);
+                    this.$cache.form.html(text_from);
                     this.$cache.to.html(text_to);
 
                 }
