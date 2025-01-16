@@ -18,4 +18,4 @@ title.textContent = texts[0];
 var loop = setInterval(function() {
     title.textContent = texts[i];
     i = (i+1) % texts.length;
-}, 7000);
+}, 10000);
